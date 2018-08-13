@@ -7,12 +7,15 @@ Time spent: **X** hours spent in total
 The following **required** functionalities are completed:
 
 [X] Responsive for any screen (desktop, laptop, tablet, phone) with Bootstrap.
-[X] Have at least 2 pages:
-1 main overview page (index.html) like the Bootstrap blog example or ideas above.
-1 blog page with at least a picture and a paragraph. If you don't have any picture, you can use https://placeimg.com/ for img and https://www.lipsum.com/ for dummy text.
+
+[X] Have at least 2 pages
+
 [X] Use Bootstrap grid system (container > row > col) to layout and align content.
+
 [X] Navigation on header and social icons (twitter, instagram, github, linkedin, facebook, etc.) on footer.
-[X] Carousel for the banner image (example: [activello]https://colorlib.com/activello/ or dazzling)
+
+[X] Carousel for the banner image 
+
 [X] At least 2 cards for featured posts.
 
 The following **optional** features are implemented:
@@ -29,16 +32,19 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-
+https://imgur.com/a/jNxpWPO
 
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Describe any challenges encountered while building the app:
+- Carousel arrows were working properly and suddenly stopped. (might have saved a new update affecting it, but not sure which element is causing it exactly). Would be glad to hear a solution.
+- The dropdown in the menu hides behind the slider. Tried z-index and other methods to bring it forward but didn't work. How to solve?
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2018 Anastasia
+    *With help of other resources and bootstrap main page.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
