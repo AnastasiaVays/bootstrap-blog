@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/codingfrustration.png">
+
+    <title>CodingFrustration.com | Coding Solutions for everyone</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
+    <!-- Custom styles for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+    <link href="blog.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/4.10.1/bootstrap-social.css" rel="stylesheet" >
+
+   <!--JS-->
+   
+    
+  
+  </head>
+  <body>
+
+  <div class="container">
+      <header class="blog-header py-3">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-4 pt-1">
+            <a class="text-muted" href="#">Subscribe</a>
+          </div>
+          <div class="col-4 text-center">
+            <a class="blog-header-logo text-dark" href="#">CF</a>
+          </div>
+          <div class="col-4 d-flex justify-content-end align-items-center">
+            <a class="text-muted" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mx-3"><circle cx="10.5" cy="10.5" r="7.5"></circle><line x1="21" y1="21" x2="15.8" y2="15.8"></line></svg>
+            </a>
+            <button type=button class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#signupmodal">
+                Sign in
+            </button>
+
+            <!--Modal-->
+            <div class="modal fade" id="signupmodal" tabindex="-1" role="dialog" aria-labelledby="signupmodalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="signupmodalLabel">Sign In</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group">
+                                  <label for="exampleInputEmail1">Your email</label>
+                                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                </div>
+                                <div class="form-group">
+                                  <label for="exampleInputPassword1">Password</label>
+                                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                          <button type="button" class="btn btn-primary">Continue</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="nav-scroller py-1 mb-2">
+        <nav class="nav d-flex justify-content-between">
+          <a class="p-2 text-muted" href="https://www.w3schools.com/html/html_intro.asp">HTML</a>
+          <a class="p-2 text-muted" href="https://getbootstrap.com/">Bootstrap</a>
+          <a class="p-2 text-muted" href="https://www.python.org/about/">Python</a>
+          <a class="p-2 text-muted" href="https://www.java.com/en/download/whatis_java.jsp">Java</a>
+          <a class="p-2 text-muted" href="https://www.javascript.com/">Javascript</a>
+          <a class="p-2 text-muted" href="https://mashable.com/2018/03/17/coding-course-class-bootcamp/">C#</a>
+          <a class="p-2 text-muted" href="http://www.cplusplus.com/">C++</a>
+          <a class="p-2 text-muted" href="http://www.php.net/">PHP</a>
+          <a class="p-2 text-muted" href="https://www.perl.org/">Perl</a>
+          <a class="p-2 text-muted" href="https://www.w3schools.com/sql/sql_intro.asp">SQL</a>
+          <a class="p-2 text-muted" href="https://rubyonrails.org/">Ruby on Rails</a>
+          <a class="p-2 text-muted" href="https://developer.apple.com/swift/">iOS/Swift</a>
+          <div class="dropdown">
+              <a class="btn btn-secondary dropdown-toggle dropdown-menu-right" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      More
+              </a>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#">Member stories</a>
+              <a class="dropdown-item" href="#">Become a writer</a>
+              <a class="dropdown-item" href="#contact-us">Contact Us</a>
+              </div>
+        </nav>
+      </div>
+      <div class="container">
+	
+        <!--Carousel Wrapper-->
+        <div id="main-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+            <!--Indicators-->
+            <ol class="carousel-indicators">
+                <li data-target="#main-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#main-carousel" data-slide-to="1"></li>
+                <li data-target="#main-carousel" data-slide-to="2"></li>
+            </ol>
+            <!--/.Indicators-->
+            <!--Slides-->
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <div class="view">
+                        <img class="d-block w-100" src="img/codinghand.jpg" alt="First slide">
+                        <div class="mask rgba-black-light"></div>
+                    </div>
+                    <div class="carousel-caption">
+                        <h3 class="h3-responsive">Frustrated with coding?</h3>
+                        <p>You are not alone! Millions of people worldwide are frustrated too. Our blog exists to bring you closer to "coding happiness". Read us and stay tuned!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <!--Mask color-->
+                    <div class="view">
+                        <img class="d-block w-100" src="img/darkcomputer.jpg" alt="Second slide">
+                        <div class="mask rgba-black-strong"></div>
+                    </div>
+                    <div class="carousel-caption">
+                        <h3 class="h3-responsive">Participate in our shuffle of tech-gadgets!</h3>
+                        <p>This month, like every month we are having a new shuffle. Follow our newsletter for the instructions to win!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <!--Mask color-->
+                    <div class="view">
+                        <img class="d-block w-100" src="https://placeimg.com/893/394/people?t=1534136229861" alt="Third slide">
+                        <div class="mask rgba-black-slight"></div>
+                    </div>
+                    <div class="carousel-caption">
+                        <h3 class="h3-responsive">Your coding days can be grey...But not for long!</h3>
+                        <p>Have a glimps at our suggested music tracks for you to be a "happy coder"!</p>
+                    </div>
+                </div>
+            </div>
+            <!--/.Slides-->
+            <!--Controls-->
+            <a class="carousel-control-prev" href="#main-carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#main-carousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+            <!--/.Controls-->
+        </div>
+        <!--/.Carousel Wrapper-->
+
+      
+      <div class="row mb-2">
+        <div class="col-md-6">
+          <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+            <div class="card-body d-flex flex-column align-items-start">
+              <strong class="d-inline-block mb-2 text-primary">More</strong>
+              <h3 class="mb-0">
+                <a class="text-dark" href="coding-fashion.html">Coding Fashion</a>
+              </h3>
+              <div class="mb-1 text-muted">12/08/2018</div>
+              <p class="card-text mb-auto">Discover the Ultimate Coding Trends!<a href="coding-fashion.html">Read now.</a></p>
+              
+          </div>
+
+            <img class="card-img-right flex-auto d-none d-lg-block" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" style="width: 200px; height: 250px;" src="img/computer200250.jpg" data-holder-rendered="true">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+            <div class="card-body d-flex flex-column align-items-start">
+              <strong class="d-inline-block mb-2 text-success">Bootstrap</strong>
+              <h3 class="mb-0">
+                <a class="text-dark" href="https://webdesign.tutsplus.com/articles/bootstrap-4-is-here-whats-new--cms-30442">What's new in Bootstrap?</a>
+              </h3>
+              <div class="mb-1 text-muted">13/08/2018</div>
+              <p class="card-text mb-auto">In this article we've gathered all the newest Bootstrap updates. Dig in!</p>
+              <a href="http://bootstrap4.guide/">Continue reading</a>
+            </div>
+            <img class="card-img-right flex-auto d-none d-lg-block" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" style="width: 200px; height: 250px;" src="img/bootstrap200250.jpg" data-holder-rendered="true">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <main role="main" class="container">
+      <div class="row">
+        <div class="col-md-8 blog-main">
+          <h3 class="pb-3 mb-4 font-italic border-bottom">
+            From the Firehose
+          </h3>
+
+          <div class="blog-post">
+            <h2 class="blog-post-title">Sample blog post</h2>
+            <p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>
+
+            <p>This blog post shows a few different types of content that's supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
+            <hr>
+            <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+            <blockquote>
+              <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            </blockquote>
+            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+            <h2>Heading</h2>
+            <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+            <h3>Sub-heading</h3>
+            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+            <pre><code>Example code block</code></pre>
+            <p>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
+            <h3>Sub-heading</h3>
+            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <ul>
+              <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
+              <li>Donec id elit non mi porta gravida at eget metus.</li>
+              <li>Nulla vitae elit libero, a pharetra augue.</li>
+            </ul>
+            <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
+            <ol>
+              <li>Vestibulum id ligula porta felis euismod semper.</li>
+              <li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
+              <li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
+            </ol>
+            <p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
+          </div><!-- /.blog-post -->
+
+          
+                   
+        </div><!-- /.blog-main -->
+
+        <aside class="col-md-4 blog-sidebar">
+          <div class="p-3 mb-3 bg-light rounded">
+            <img class="img-fluid" src="img/best author.jpg">
+            <h4 class="font-italic">About the Author</h4>
+            <p class="mb-0">Anastasia KV <em>"not a coder"</em> is the author of this blog page, elaborated with bootstrap and Google's help (thank you Google!). She likes Marketing, Branding and Creativity and represents perfectly the target audience of this blog. She is frustrated with coding!</p>
+          </div>
+
+          <div class="p-3">
+            <h4 class="font-italic">Archives</h4>
+            <ol class="list-unstyled mb-0">
+              <li><a href="#">June 2018</a></li>
+              <li><a href="#">July 2018</a></li>
+              <li><a href="#">Ausugt 2018</a></li>
+              </ol>
+          </div>
+
+          <div class="p-3 mb-3 bg-light rounded">
+            <h4 class="font-italic">Our Sponsors</h4>
+            <ol class="list-unstyled">
+              <li><a href="#">A cup of Coffee</a></li>
+              <li><a href="#">Google</a></li>
+              <li><a href="#">7/11</a></li>
+            </ol>
+          </div>
+        </aside><!-- /.blog-sidebar -->
+
+      </div><!-- /.row -->
+
+    </main><!-- /.container -->
+     
+    <!--contact form-->
+    <form>
+        <h2 class="form-title">Get in Touch!</h2> 
+        <p class="form-sub-title">Ask us anything or simply say hi. We would love to hear from you! :-)</p>
+        <div class="form-group">
+          <label for="forminput1">Your name</label>
+          <input type="name" class="form-control w-50" id="forminput1" placeholder="John Doe">
+        </div>
+        <div class="form-group"> 
+          <label for="forminput2">Your email</label>
+          <input type="email" class="form-control w-50" id="forminput2" placeholder="name@example.com">  
+        </div>
+        <div class="form-group">
+          <label for="forminput3">Your message</label>
+          <textarea class="form-control w-50" id="forminput3" rows="3"></textarea>
+        </div>
+         <button type="submit" class="btn btn-primary ">Send!</button>
+    </form>
+    <p>
+    <footer class="blog-footer">
+      <div class="text-center">
+            <a onclick="" class="btn btn-social-icon btn-lg btn-facebook"><i class="fa fa-facebook"></i></a>
+            <a onclick="" class="btn btn-social-icon btn-lg btn-dropbox"><i class="fa fa-linkedin"></i></a>
+            <a onclick="" class="btn btn-social-icon btn-lg btn-flickr"><i class="fa fa-twitter"></i></a>
+      <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+      <p>Modified and completed for <a href="http://coderschool.vn">Coder School</a> 2nd Week assignment by <a href="https://twitter.com/mdo">Anastasia KOP</a>  </p>
+      <p>
+        <a href="#">Back to top</a>
+      </p>
+
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="http://getbootstrap.com/assets/js/vendor/holder.min.js"></script>
+    <script>
+      Holder.addTheme('thumb', {
+        bg: '#55595c',
+        fg: '#eceeef',
+        text: 'Thumbnail'
+      });
+    </script>
+  </body>
+</html>
