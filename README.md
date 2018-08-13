@@ -1,6 +1,6 @@
-# Project 1 - *Name of Your Project Here*
+# Project 2 - Blog page with Bootstrap
 
-Time spent: **X** hours spent in total
+Time spent: **12** hours spent in total
 
 ## User Stories
 
